@@ -2,6 +2,7 @@ name: cached_network_image_platform_interface
 description: Platform interface for CachedNetworkImage
 version: 2.0.0
 homepage: https://github.com/Baseflow/flutter_cached_network_image
+publish_to: none # todo remove it
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
@@ -10,7 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_cache_manager: ^3.0.0
+  # flutter_cache_manager:
+  #   path: ../../flutter_cache_manager/flutter_cache_manager # todo remove it
 
 dev_dependencies:
   flutter_test:
